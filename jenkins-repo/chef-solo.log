@@ -1,0 +1,333 @@
+# Logfile created on 2018-05-29 22:41:40 +0000 by logger.rb/56815
+[2018-05-29T22:41:40+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:41:40+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:41:40+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:41:40+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:41:40+00:00] INFO: Chef-client pid: 13347
+[2018-05-29T22:41:40+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:41:41+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:41:41+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:41:41+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:41:41+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:41:41+00:00] INFO: Running start handlers
+[2018-05-29T22:41:41+00:00] INFO: Start handlers complete.
+[2018-05-29T22:41:41+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/attributes/default.rb in the cache.
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/README.md in the cache.
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/recipes/default.rb in the cache.
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/metadata.rb in the cache.
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T22:41:41+00:00] ERROR: Running exception handlers
+[2018-05-29T22:41:41+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:41:41+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:41:41+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:41:41+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:21: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:41:41+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:43:13+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:43:13+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:43:13+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:43:13+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:43:13+00:00] INFO: Chef-client pid: 13627
+[2018-05-29T22:43:13+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:43:14+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:43:14+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:43:14+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:43:14+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:43:14+00:00] INFO: Running start handlers
+[2018-05-29T22:43:14+00:00] INFO: Start handlers complete.
+[2018-05-29T22:43:14+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:43:14+00:00] ERROR: Running exception handlers
+[2018-05-29T22:43:14+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:43:14+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:43:14+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:43:14+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:21: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:43:14+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:45:57+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:45:57+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:45:57+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:45:57+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:45:57+00:00] INFO: Chef-client pid: 13918
+[2018-05-29T22:45:57+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:45:58+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:45:58+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:45:58+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:45:58+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:45:58+00:00] INFO: Running start handlers
+[2018-05-29T22:45:58+00:00] INFO: Start handlers complete.
+[2018-05-29T22:45:58+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:45:58+00:00] ERROR: Running exception handlers
+[2018-05-29T22:45:58+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:45:58+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:45:58+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:45:58+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:21: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:45:58+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:49:11+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:49:11+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:49:11+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:49:11+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:49:11+00:00] INFO: Chef-client pid: 14204
+[2018-05-29T22:49:11+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:49:12+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:49:12+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:49:12+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:49:12+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:49:12+00:00] INFO: Running start handlers
+[2018-05-29T22:49:12+00:00] INFO: Start handlers complete.
+[2018-05-29T22:49:12+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:49:12+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T22:49:12+00:00] ERROR: Running exception handlers
+[2018-05-29T22:49:12+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:49:12+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:49:12+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:49:12+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:49:12+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:52:51+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:52:51+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:52:51+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:52:51+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:52:51+00:00] INFO: Chef-client pid: 14500
+[2018-05-29T22:52:51+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:52:52+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:52:52+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:52:52+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:52:52+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:52:52+00:00] INFO: Running start handlers
+[2018-05-29T22:52:52+00:00] INFO: Start handlers complete.
+[2018-05-29T22:52:52+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:52:52+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T22:52:52+00:00] ERROR: Running exception handlers
+[2018-05-29T22:52:52+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:52:52+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:52:52+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:52:52+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:52:52+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:56:05+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:56:05+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:56:05+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:56:05+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:56:05+00:00] INFO: Chef-client pid: 14806
+[2018-05-29T22:56:05+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:56:06+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:56:06+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:56:06+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:56:06+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:56:06+00:00] INFO: Running start handlers
+[2018-05-29T22:56:06+00:00] INFO: Start handlers complete.
+[2018-05-29T22:56:06+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:56:06+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T22:56:06+00:00] ERROR: Running exception handlers
+[2018-05-29T22:56:06+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:56:06+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:56:06+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:56:06+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:56:06+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T23:02:10+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T23:02:10+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T23:02:10+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T23:02:10+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T23:02:10+00:00] INFO: Chef-client pid: 15102
+[2018-05-29T23:02:10+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T23:02:11+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T23:02:11+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T23:02:11+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T23:02:11+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T23:02:11+00:00] INFO: Running start handlers
+[2018-05-29T23:02:11+00:00] INFO: Start handlers complete.
+[2018-05-29T23:02:11+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T23:02:11+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T23:02:11+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-29T23:02:12+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-29T23:02:12+00:00] INFO: execute[install-key EEA14886] ran successfully
+[2018-05-29T23:02:12+00:00] INFO: execute[install-key EEA14886] sending run action to execute[apt-cache gencaches] (immediate)
+[2018-05-29T23:02:12+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:02:12+00:00] INFO: execute[apt-cache gencaches] ran successfully
+[2018-05-29T23:02:12+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:02:12+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:02:12+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] created file /etc/apt/sources.list.d/webupd8team.list
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] updated file contents /etc/apt/sources.list.d/webupd8team.list
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] owner changed to 0
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] group changed to 0
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] mode changed to 644
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] sending run action to execute[apt-cache gencaches] (immediate)
+[2018-05-29T23:02:12+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:02:14+00:00] INFO: execute[apt-cache gencaches] ran successfully
+[2018-05-29T23:02:14+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] sending update action to apt_update[webupd8team] (immediate)
+[2018-05-29T23:02:14+00:00] INFO: Processing apt_update[webupd8team] action update (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:02:14+00:00] INFO: Processing directory[/var/lib/apt/periodic] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-29T23:02:14+00:00] INFO: Processing directory[/etc/apt/apt.conf.d] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-29T23:02:14+00:00] INFO: Processing file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 65)
+[2018-05-29T23:02:14+00:00] INFO: Processing execute[apt-get -q update] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 70)
+[2018-05-29T23:02:18+00:00] INFO: execute[apt-get -q update] ran successfully
+[2018-05-29T23:02:18+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-29T23:02:18+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-29T23:02:18+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-29T23:02:55+00:00] INFO: apt_package[oracle-java8-installer] installed oracle-java8-installer at 8u171-1~webupd8~0
+[2018-05-29T23:02:55+00:00] INFO: Chef Run complete in 43.724096723 seconds
+[2018-05-29T23:02:55+00:00] INFO: Running report handlers
+[2018-05-29T23:02:55+00:00] INFO: Report handlers complete
+[2018-05-29T23:02:55+00:00] WARN: *****************************************
+[2018-05-29T23:02:55+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-29T23:02:55+00:00] WARN: *****************************************
+[2018-05-29T23:02:55+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-29T23:06:05+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T23:06:05+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T23:06:06+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T23:06:06+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T23:06:06+00:00] INFO: Chef-client pid: 17959
+[2018-05-29T23:06:06+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T23:06:07+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T23:06:07+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T23:06:07+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T23:06:07+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T23:06:07+00:00] INFO: Running start handlers
+[2018-05-29T23:06:07+00:00] INFO: Start handlers complete.
+[2018-05-29T23:06:07+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T23:06:07+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T23:06:07+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-29T23:06:07+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-29T23:06:08+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:06:08+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:06:08+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-29T23:06:08+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-29T23:06:08+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-29T23:06:08+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-29T23:06:08+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-29T23:06:08+00:00] INFO: Chef Run complete in 0.901004291 seconds
+[2018-05-29T23:06:08+00:00] INFO: Running report handlers
+[2018-05-29T23:06:08+00:00] INFO: Report handlers complete
+[2018-05-29T23:06:08+00:00] WARN: *****************************************
+[2018-05-29T23:06:08+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-29T23:06:08+00:00] WARN: *****************************************
+[2018-05-29T23:06:08+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-29T23:31:43+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T23:31:43+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T23:31:43+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T23:31:43+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T23:31:43+00:00] INFO: Chef-client pid: 18695
+[2018-05-29T23:31:43+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T23:31:45+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T23:31:45+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T23:31:45+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T23:31:45+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T23:31:45+00:00] INFO: Running start handlers
+[2018-05-29T23:31:45+00:00] INFO: Start handlers complete.
+[2018-05-29T23:31:45+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T23:31:45+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-29T23:31:45+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-29T23:31:45+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-29T23:31:45+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:31:45+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:31:45+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-29T23:31:45+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-29T23:31:45+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-29T23:31:45+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-29T23:31:45+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-29T23:31:45+00:00] INFO: Chef Run complete in 0.842788117 seconds
+[2018-05-29T23:31:45+00:00] INFO: Running report handlers
+[2018-05-29T23:31:45+00:00] INFO: Report handlers complete
+[2018-05-29T23:31:45+00:00] WARN: *****************************************
+[2018-05-29T23:31:45+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-29T23:31:45+00:00] WARN: *****************************************
+[2018-05-29T23:31:45+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-29T23:32:13+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T23:32:13+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T23:32:13+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T23:32:13+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T23:32:13+00:00] INFO: Chef-client pid: 19401
+[2018-05-29T23:32:13+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T23:32:14+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-29T23:32:14+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-29T23:32:14+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-29T23:32:14+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T23:32:14+00:00] INFO: Running start handlers
+[2018-05-29T23:32:14+00:00] INFO: Start handlers complete.
+[2018-05-29T23:32:14+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T23:32:14+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-29T23:32:14+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-29T23:32:14+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-29T23:32:14+00:00] INFO: remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] created file /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key
+[2018-05-29T23:32:14+00:00] INFO: remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] updated file contents /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key
+[2018-05-29T23:32:14+00:00] INFO: remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] mode changed to 644
+[2018-05-29T23:32:14+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-29T23:32:14+00:00] INFO: execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] ran successfully
+[2018-05-29T23:32:14+00:00] INFO: execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] sending run action to execute[apt-cache gencaches] (immediate)
+[2018-05-29T23:32:14+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:32:15+00:00] INFO: execute[apt-cache gencaches] ran successfully
+[2018-05-29T23:32:15+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:32:15+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:32:15+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] created file /etc/apt/sources.list.d/jenkins.list
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] updated file contents /etc/apt/sources.list.d/jenkins.list
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] owner changed to 0
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] group changed to 0
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] mode changed to 644
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] sending run action to execute[apt-cache gencaches] (immediate)
+[2018-05-29T23:32:15+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:32:16+00:00] INFO: execute[apt-cache gencaches] ran successfully
+[2018-05-29T23:32:16+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] sending update action to apt_update[jenkins] (immediate)
+[2018-05-29T23:32:16+00:00] INFO: Processing apt_update[jenkins] action update (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:32:16+00:00] INFO: Processing directory[/var/lib/apt/periodic] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-29T23:32:16+00:00] INFO: Processing directory[/etc/apt/apt.conf.d] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-29T23:32:16+00:00] INFO: Processing file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 65)
+[2018-05-29T23:32:16+00:00] INFO: Processing execute[apt-get -q update] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 70)
+[2018-05-29T23:32:18+00:00] INFO: execute[apt-get -q update] ran successfully
+[2018-05-29T23:32:18+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-29T23:32:47+00:00] INFO: apt_package[jenkins] installed jenkins at 2.107.3
+[2018-05-29T23:32:47+00:00] INFO: Chef Run complete in 33.48517569 seconds
+[2018-05-29T23:32:47+00:00] INFO: Running report handlers
+[2018-05-29T23:32:47+00:00] INFO: Report handlers complete
+[2018-05-29T23:32:47+00:00] WARN: *****************************************
+[2018-05-29T23:32:47+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-29T23:32:47+00:00] WARN: *****************************************
+[2018-05-29T23:32:47+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-30T00:14:43+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T00:14:43+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T00:14:43+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T00:14:43+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T00:14:43+00:00] INFO: Chef-client pid: 21158
+[2018-05-30T00:14:43+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T00:14:44+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T00:14:44+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T00:14:44+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T00:14:44+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T00:14:44+00:00] INFO: Running start handlers
+[2018-05-30T00:14:44+00:00] INFO: Start handlers complete.
+[2018-05-30T00:14:44+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-30T00:14:44+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-30T00:14:45+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-30T00:14:45+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-30T00:14:45+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-30T00:14:45+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-30T00:14:45+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-30T00:14:45+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-30T00:14:45+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-30T00:14:45+00:00] INFO: Chef Run complete in 0.704311622 seconds
+[2018-05-30T00:14:45+00:00] INFO: Running report handlers
+[2018-05-30T00:14:45+00:00] INFO: Report handlers complete
+[2018-05-30T00:14:45+00:00] WARN: *****************************************
+[2018-05-30T00:14:45+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-30T00:14:45+00:00] WARN: *****************************************
+[2018-05-30T00:14:45+00:00] FATAL: Cannot load configuration from node.json
