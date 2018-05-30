@@ -1,0 +1,1733 @@
+# Logfile created on 2018-05-29 22:41:40 +0000 by logger.rb/56815
+[2018-05-29T22:41:40+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:41:40+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:41:40+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:41:40+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:41:40+00:00] INFO: Chef-client pid: 13347
+[2018-05-29T22:41:40+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:41:41+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:41:41+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:41:41+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:41:41+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:41:41+00:00] INFO: Running start handlers
+[2018-05-29T22:41:41+00:00] INFO: Start handlers complete.
+[2018-05-29T22:41:41+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/attributes/default.rb in the cache.
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/README.md in the cache.
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/recipes/default.rb in the cache.
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/metadata.rb in the cache.
+[2018-05-29T22:41:41+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T22:41:41+00:00] ERROR: Running exception handlers
+[2018-05-29T22:41:41+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:41:41+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:41:41+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:41:41+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:21: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:41:41+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:43:13+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:43:13+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:43:13+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:43:13+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:43:13+00:00] INFO: Chef-client pid: 13627
+[2018-05-29T22:43:13+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:43:14+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:43:14+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:43:14+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:43:14+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:43:14+00:00] INFO: Running start handlers
+[2018-05-29T22:43:14+00:00] INFO: Start handlers complete.
+[2018-05-29T22:43:14+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:43:14+00:00] ERROR: Running exception handlers
+[2018-05-29T22:43:14+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:43:14+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:43:14+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:43:14+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:21: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:43:14+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:45:57+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:45:57+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:45:57+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:45:57+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:45:57+00:00] INFO: Chef-client pid: 13918
+[2018-05-29T22:45:57+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:45:58+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:45:58+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:45:58+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:45:58+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:45:58+00:00] INFO: Running start handlers
+[2018-05-29T22:45:58+00:00] INFO: Start handlers complete.
+[2018-05-29T22:45:58+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:45:58+00:00] ERROR: Running exception handlers
+[2018-05-29T22:45:58+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:45:58+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:45:58+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:45:58+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:21: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:45:58+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:49:11+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:49:11+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:49:11+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:49:11+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:49:11+00:00] INFO: Chef-client pid: 14204
+[2018-05-29T22:49:11+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:49:12+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:49:12+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:49:12+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:49:12+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:49:12+00:00] INFO: Running start handlers
+[2018-05-29T22:49:12+00:00] INFO: Start handlers complete.
+[2018-05-29T22:49:12+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:49:12+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T22:49:12+00:00] ERROR: Running exception handlers
+[2018-05-29T22:49:12+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:49:12+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:49:12+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:49:12+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:49:12+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:52:51+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:52:51+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:52:51+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:52:51+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:52:51+00:00] INFO: Chef-client pid: 14500
+[2018-05-29T22:52:51+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:52:52+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:52:52+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:52:52+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:52:52+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:52:52+00:00] INFO: Running start handlers
+[2018-05-29T22:52:52+00:00] INFO: Start handlers complete.
+[2018-05-29T22:52:52+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:52:52+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T22:52:52+00:00] ERROR: Running exception handlers
+[2018-05-29T22:52:52+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:52:52+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:52:52+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:52:52+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:52:52+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T22:56:05+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T22:56:05+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T22:56:05+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T22:56:05+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T22:56:05+00:00] INFO: Chef-client pid: 14806
+[2018-05-29T22:56:05+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T22:56:06+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T22:56:06+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T22:56:06+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T22:56:06+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T22:56:06+00:00] INFO: Running start handlers
+[2018-05-29T22:56:06+00:00] INFO: Start handlers complete.
+[2018-05-29T22:56:06+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T22:56:06+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T22:56:06+00:00] ERROR: Running exception handlers
+[2018-05-29T22:56:06+00:00] ERROR: Exception handlers complete
+[2018-05-29T22:56:06+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-29T22:56:06+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-29T22:56:06+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/java.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-29T22:56:06+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-29T23:02:10+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T23:02:10+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T23:02:10+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T23:02:10+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T23:02:10+00:00] INFO: Chef-client pid: 15102
+[2018-05-29T23:02:10+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T23:02:11+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T23:02:11+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T23:02:11+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T23:02:11+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T23:02:11+00:00] INFO: Running start handlers
+[2018-05-29T23:02:11+00:00] INFO: Start handlers complete.
+[2018-05-29T23:02:11+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T23:02:11+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T23:02:11+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-29T23:02:12+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-29T23:02:12+00:00] INFO: execute[install-key EEA14886] ran successfully
+[2018-05-29T23:02:12+00:00] INFO: execute[install-key EEA14886] sending run action to execute[apt-cache gencaches] (immediate)
+[2018-05-29T23:02:12+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:02:12+00:00] INFO: execute[apt-cache gencaches] ran successfully
+[2018-05-29T23:02:12+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:02:12+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:02:12+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] created file /etc/apt/sources.list.d/webupd8team.list
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] updated file contents /etc/apt/sources.list.d/webupd8team.list
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] owner changed to 0
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] group changed to 0
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] mode changed to 644
+[2018-05-29T23:02:12+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] sending run action to execute[apt-cache gencaches] (immediate)
+[2018-05-29T23:02:12+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:02:14+00:00] INFO: execute[apt-cache gencaches] ran successfully
+[2018-05-29T23:02:14+00:00] INFO: file[/etc/apt/sources.list.d/webupd8team.list] sending update action to apt_update[webupd8team] (immediate)
+[2018-05-29T23:02:14+00:00] INFO: Processing apt_update[webupd8team] action update (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:02:14+00:00] INFO: Processing directory[/var/lib/apt/periodic] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-29T23:02:14+00:00] INFO: Processing directory[/etc/apt/apt.conf.d] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-29T23:02:14+00:00] INFO: Processing file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 65)
+[2018-05-29T23:02:14+00:00] INFO: Processing execute[apt-get -q update] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 70)
+[2018-05-29T23:02:18+00:00] INFO: execute[apt-get -q update] ran successfully
+[2018-05-29T23:02:18+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-29T23:02:18+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-29T23:02:18+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-29T23:02:55+00:00] INFO: apt_package[oracle-java8-installer] installed oracle-java8-installer at 8u171-1~webupd8~0
+[2018-05-29T23:02:55+00:00] INFO: Chef Run complete in 43.724096723 seconds
+[2018-05-29T23:02:55+00:00] INFO: Running report handlers
+[2018-05-29T23:02:55+00:00] INFO: Report handlers complete
+[2018-05-29T23:02:55+00:00] WARN: *****************************************
+[2018-05-29T23:02:55+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-29T23:02:55+00:00] WARN: *****************************************
+[2018-05-29T23:02:55+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-29T23:06:05+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T23:06:05+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T23:06:06+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T23:06:06+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T23:06:06+00:00] INFO: Chef-client pid: 17959
+[2018-05-29T23:06:06+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T23:06:07+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T23:06:07+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T23:06:07+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T23:06:07+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T23:06:07+00:00] INFO: Running start handlers
+[2018-05-29T23:06:07+00:00] INFO: Start handlers complete.
+[2018-05-29T23:06:07+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T23:06:07+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-29T23:06:07+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-29T23:06:07+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-29T23:06:08+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:06:08+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:06:08+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-29T23:06:08+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-29T23:06:08+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-29T23:06:08+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-29T23:06:08+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-29T23:06:08+00:00] INFO: Chef Run complete in 0.901004291 seconds
+[2018-05-29T23:06:08+00:00] INFO: Running report handlers
+[2018-05-29T23:06:08+00:00] INFO: Report handlers complete
+[2018-05-29T23:06:08+00:00] WARN: *****************************************
+[2018-05-29T23:06:08+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-29T23:06:08+00:00] WARN: *****************************************
+[2018-05-29T23:06:08+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-29T23:31:43+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T23:31:43+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T23:31:43+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T23:31:43+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T23:31:43+00:00] INFO: Chef-client pid: 18695
+[2018-05-29T23:31:43+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T23:31:45+00:00] INFO: Setting the run_list to ["recipe[example::java]"] from CLI options
+[2018-05-29T23:31:45+00:00] INFO: Run List is [recipe[example::java]]
+[2018-05-29T23:31:45+00:00] INFO: Run List expands to [example::java]
+[2018-05-29T23:31:45+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T23:31:45+00:00] INFO: Running start handlers
+[2018-05-29T23:31:45+00:00] INFO: Start handlers complete.
+[2018-05-29T23:31:45+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T23:31:45+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-29T23:31:45+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-29T23:31:45+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-29T23:31:45+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:31:45+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:31:45+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-29T23:31:45+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-29T23:31:45+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-29T23:31:45+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-29T23:31:45+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-29T23:31:45+00:00] INFO: Chef Run complete in 0.842788117 seconds
+[2018-05-29T23:31:45+00:00] INFO: Running report handlers
+[2018-05-29T23:31:45+00:00] INFO: Report handlers complete
+[2018-05-29T23:31:45+00:00] WARN: *****************************************
+[2018-05-29T23:31:45+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-29T23:31:45+00:00] WARN: *****************************************
+[2018-05-29T23:31:45+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-29T23:32:13+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-29T23:32:13+00:00] INFO: Forking chef instance to converge...
+[2018-05-29T23:32:13+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-29T23:32:13+00:00] INFO: Platform: x86_64-linux
+[2018-05-29T23:32:13+00:00] INFO: Chef-client pid: 19401
+[2018-05-29T23:32:13+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-29T23:32:14+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-29T23:32:14+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-29T23:32:14+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-29T23:32:14+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-29T23:32:14+00:00] INFO: Running start handlers
+[2018-05-29T23:32:14+00:00] INFO: Start handlers complete.
+[2018-05-29T23:32:14+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-29T23:32:14+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-29T23:32:14+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-29T23:32:14+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-29T23:32:14+00:00] INFO: remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] created file /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key
+[2018-05-29T23:32:14+00:00] INFO: remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] updated file contents /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key
+[2018-05-29T23:32:14+00:00] INFO: remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] mode changed to 644
+[2018-05-29T23:32:14+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-29T23:32:14+00:00] INFO: execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] ran successfully
+[2018-05-29T23:32:14+00:00] INFO: execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] sending run action to execute[apt-cache gencaches] (immediate)
+[2018-05-29T23:32:14+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:32:15+00:00] INFO: execute[apt-cache gencaches] ran successfully
+[2018-05-29T23:32:15+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:32:15+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:32:15+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] created file /etc/apt/sources.list.d/jenkins.list
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] updated file contents /etc/apt/sources.list.d/jenkins.list
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] owner changed to 0
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] group changed to 0
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] mode changed to 644
+[2018-05-29T23:32:15+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] sending run action to execute[apt-cache gencaches] (immediate)
+[2018-05-29T23:32:15+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-29T23:32:16+00:00] INFO: execute[apt-cache gencaches] ran successfully
+[2018-05-29T23:32:16+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] sending update action to apt_update[jenkins] (immediate)
+[2018-05-29T23:32:16+00:00] INFO: Processing apt_update[jenkins] action update (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-29T23:32:16+00:00] INFO: Processing directory[/var/lib/apt/periodic] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-29T23:32:16+00:00] INFO: Processing directory[/etc/apt/apt.conf.d] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-29T23:32:16+00:00] INFO: Processing file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 65)
+[2018-05-29T23:32:16+00:00] INFO: Processing execute[apt-get -q update] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 70)
+[2018-05-29T23:32:18+00:00] INFO: execute[apt-get -q update] ran successfully
+[2018-05-29T23:32:18+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-29T23:32:47+00:00] INFO: apt_package[jenkins] installed jenkins at 2.107.3
+[2018-05-29T23:32:47+00:00] INFO: Chef Run complete in 33.48517569 seconds
+[2018-05-29T23:32:47+00:00] INFO: Running report handlers
+[2018-05-29T23:32:47+00:00] INFO: Report handlers complete
+[2018-05-29T23:32:47+00:00] WARN: *****************************************
+[2018-05-29T23:32:47+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-29T23:32:47+00:00] WARN: *****************************************
+[2018-05-29T23:32:47+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-30T00:14:43+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T00:14:43+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T00:14:43+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T00:14:43+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T00:14:43+00:00] INFO: Chef-client pid: 21158
+[2018-05-30T00:14:43+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T00:14:44+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T00:14:44+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T00:14:44+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T00:14:44+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T00:14:44+00:00] INFO: Running start handlers
+[2018-05-30T00:14:44+00:00] INFO: Start handlers complete.
+[2018-05-30T00:14:44+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-30T00:14:44+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-30T00:14:45+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-30T00:14:45+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-30T00:14:45+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-30T00:14:45+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-30T00:14:45+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-30T00:14:45+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-30T00:14:45+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-30T00:14:45+00:00] INFO: Chef Run complete in 0.704311622 seconds
+[2018-05-30T00:14:45+00:00] INFO: Running report handlers
+[2018-05-30T00:14:45+00:00] INFO: Report handlers complete
+[2018-05-30T00:14:45+00:00] WARN: *****************************************
+[2018-05-30T00:14:45+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-30T00:14:45+00:00] WARN: *****************************************
+[2018-05-30T00:14:45+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-30T06:22:18+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T06:22:18+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T06:22:18+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T06:22:18+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T06:22:18+00:00] INFO: Chef-client pid: 22606
+[2018-05-30T06:22:18+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T06:22:19+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T06:22:19+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T06:22:19+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T06:22:19+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T06:22:19+00:00] INFO: Running start handlers
+[2018-05-30T06:22:19+00:00] INFO: Start handlers complete.
+[2018-05-30T06:22:19+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-30T06:22:19+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-30T06:22:19+00:00] ERROR: Running exception handlers
+[2018-05-30T06:22:19+00:00] ERROR: Exception handlers complete
+[2018-05-30T06:22:19+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T06:22:19+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T06:22:19+00:00] ERROR: undefined method `jenkins_command' for cookbook: example, recipe: jenkins :Chef::Recipe
+[2018-05-30T06:22:19+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T06:41:25+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T06:41:25+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T06:41:25+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T06:41:25+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T06:41:25+00:00] INFO: Chef-client pid: 23389
+[2018-05-30T06:41:25+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T06:41:26+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T06:41:26+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T06:41:26+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T06:41:26+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T06:41:26+00:00] INFO: Running start handlers
+[2018-05-30T06:41:26+00:00] INFO: Start handlers complete.
+[2018-05-30T06:41:26+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-30T06:41:26+00:00] INFO: Storing updated cookbooks/example/metadata.rb in the cache.
+[2018-05-30T06:41:26+00:00] ERROR: Running exception handlers
+[2018-05-30T06:41:26+00:00] ERROR: Exception handlers complete
+[2018-05-30T06:41:26+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T06:41:26+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T06:41:26+00:00] ERROR: undefined method `jenkins_command' for cookbook: example, recipe: jenkins :Chef::Recipe
+[2018-05-30T06:41:26+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T06:44:12+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T06:44:12+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T06:44:12+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T06:44:12+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T06:44:12+00:00] INFO: Chef-client pid: 23692
+[2018-05-30T06:44:12+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T06:44:14+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T06:44:14+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T06:44:14+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T06:44:14+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T06:44:14+00:00] INFO: Running start handlers
+[2018-05-30T06:44:14+00:00] INFO: Start handlers complete.
+[2018-05-30T06:44:14+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-30T06:44:14+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-30T06:44:14+00:00] ERROR: Running exception handlers
+[2018-05-30T06:44:14+00:00] ERROR: Exception handlers complete
+[2018-05-30T06:44:14+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T06:44:14+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T06:44:14+00:00] ERROR: undefined method `jenkins_command' for cookbook: example, recipe: jenkins :Chef::Recipe
+[2018-05-30T06:44:14+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T06:48:32+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T06:48:32+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T06:48:32+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T06:48:32+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T06:48:32+00:00] INFO: Chef-client pid: 24042
+[2018-05-30T06:48:32+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T06:48:33+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T06:48:33+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T06:48:33+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T06:48:33+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T06:48:33+00:00] INFO: Running start handlers
+[2018-05-30T06:48:33+00:00] INFO: Start handlers complete.
+[2018-05-30T06:48:33+00:00] ERROR: Running exception handlers
+[2018-05-30T06:48:33+00:00] ERROR: Exception handlers complete
+[2018-05-30T06:48:33+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T06:48:33+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T06:48:33+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T06:48:33+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T06:54:32+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T06:54:32+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T06:54:32+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T06:54:32+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T06:54:32+00:00] INFO: Chef-client pid: 24389
+[2018-05-30T06:54:32+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T06:54:34+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T06:54:34+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T06:54:34+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T06:54:34+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T06:54:34+00:00] INFO: Running start handlers
+[2018-05-30T06:54:34+00:00] INFO: Start handlers complete.
+[2018-05-30T06:54:34+00:00] ERROR: Running exception handlers
+[2018-05-30T06:54:34+00:00] ERROR: Exception handlers complete
+[2018-05-30T06:54:34+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T06:54:34+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T06:54:34+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T06:54:34+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T06:57:25+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T06:57:25+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T06:57:25+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T06:57:25+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T06:57:25+00:00] INFO: Chef-client pid: 24684
+[2018-05-30T06:57:25+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T06:57:26+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T06:57:26+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T06:57:26+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T06:57:26+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T06:57:26+00:00] INFO: Running start handlers
+[2018-05-30T06:57:26+00:00] INFO: Start handlers complete.
+[2018-05-30T06:57:26+00:00] ERROR: Running exception handlers
+[2018-05-30T06:57:26+00:00] ERROR: Exception handlers complete
+[2018-05-30T06:57:26+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T06:57:26+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T06:57:26+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T06:57:26+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:00:06+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:00:06+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:00:06+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:00:06+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:00:06+00:00] INFO: Chef-client pid: 24979
+[2018-05-30T07:00:06+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:00:07+00:00] INFO: Setting the run_list to ["recipe[example]"] from CLI options
+[2018-05-30T07:00:07+00:00] INFO: Run List is [recipe[example]]
+[2018-05-30T07:00:07+00:00] INFO: Run List expands to [example]
+[2018-05-30T07:00:07+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:00:07+00:00] INFO: Running start handlers
+[2018-05-30T07:00:07+00:00] INFO: Start handlers complete.
+[2018-05-30T07:00:07+00:00] ERROR: Running exception handlers
+[2018-05-30T07:00:07+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:00:07+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:00:07+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:00:07+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:00:07+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:02:15+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:02:15+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:02:16+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:02:16+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:02:16+00:00] INFO: Chef-client pid: 25259
+[2018-05-30T07:02:16+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:02:17+00:00] INFO: Setting the run_list to ["recipe[example]"] from CLI options
+[2018-05-30T07:02:17+00:00] INFO: Run List is [recipe[example]]
+[2018-05-30T07:02:17+00:00] INFO: Run List expands to [example]
+[2018-05-30T07:02:17+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:02:17+00:00] INFO: Running start handlers
+[2018-05-30T07:02:17+00:00] INFO: Start handlers complete.
+[2018-05-30T07:02:17+00:00] ERROR: Running exception handlers
+[2018-05-30T07:02:17+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:02:17+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:02:17+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:02:17+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:02:17+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:03:13+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:03:13+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:03:13+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:03:13+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:03:13+00:00] INFO: Chef-client pid: 25537
+[2018-05-30T07:03:13+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:03:15+00:00] INFO: Setting the run_list to ["recipe[example]"] from CLI options
+[2018-05-30T07:03:15+00:00] INFO: Run List is [recipe[example]]
+[2018-05-30T07:03:15+00:00] INFO: Run List expands to [example]
+[2018-05-30T07:03:15+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:03:15+00:00] INFO: Running start handlers
+[2018-05-30T07:03:15+00:00] INFO: Start handlers complete.
+[2018-05-30T07:03:15+00:00] ERROR: Running exception handlers
+[2018-05-30T07:03:15+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:03:15+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:03:15+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:03:15+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:03:15+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:07:43+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:07:43+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:07:43+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:07:43+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:07:43+00:00] INFO: Chef-client pid: 26420
+[2018-05-30T07:07:43+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:07:44+00:00] INFO: Setting the run_list to ["recipe[example]"] from CLI options
+[2018-05-30T07:07:44+00:00] INFO: Run List is [recipe[example]]
+[2018-05-30T07:07:44+00:00] INFO: Run List expands to [example]
+[2018-05-30T07:07:44+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:07:44+00:00] INFO: Running start handlers
+[2018-05-30T07:07:44+00:00] INFO: Start handlers complete.
+[2018-05-30T07:07:44+00:00] ERROR: Running exception handlers
+[2018-05-30T07:07:44+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:07:44+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:07:44+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:07:44+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:07:44+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:12:32+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:12:32+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:12:32+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:12:32+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:12:32+00:00] INFO: Chef-client pid: 26738
+[2018-05-30T07:12:32+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:12:33+00:00] INFO: Setting the run_list to ["recipe[example]"] from CLI options
+[2018-05-30T07:12:33+00:00] INFO: Run List is [recipe[example]]
+[2018-05-30T07:12:33+00:00] INFO: Run List expands to [example]
+[2018-05-30T07:12:33+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:12:33+00:00] INFO: Running start handlers
+[2018-05-30T07:12:33+00:00] INFO: Start handlers complete.
+[2018-05-30T07:12:33+00:00] ERROR: Running exception handlers
+[2018-05-30T07:12:33+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:12:33+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:12:33+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:12:33+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:12:33+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:14:26+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:14:26+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:14:26+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:14:26+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:14:26+00:00] INFO: Chef-client pid: 27032
+[2018-05-30T07:14:26+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:14:28+00:00] INFO: Setting the run_list to ["recipe[example:jenkins]"] from CLI options
+[2018-05-30T07:14:28+00:00] INFO: Run List is [recipe[example:jenkins]]
+[2018-05-30T07:14:28+00:00] INFO: Run List expands to [example:jenkins]
+[2018-05-30T07:14:28+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:14:28+00:00] INFO: Running start handlers
+[2018-05-30T07:14:28+00:00] INFO: Start handlers complete.
+[2018-05-30T07:14:28+00:00] ERROR: Running exception handlers
+[2018-05-30T07:14:28+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:14:28+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:14:28+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:14:28+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:14:28+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:17:15+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:17:15+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:17:15+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:17:15+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:17:15+00:00] INFO: Chef-client pid: 27326
+[2018-05-30T07:17:15+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:17:16+00:00] INFO: Setting the run_list to ["recipe[example:jenkins]"] from CLI options
+[2018-05-30T07:17:16+00:00] INFO: Run List is [recipe[example:jenkins]]
+[2018-05-30T07:17:16+00:00] INFO: Run List expands to [example:jenkins]
+[2018-05-30T07:17:16+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:17:16+00:00] INFO: Running start handlers
+[2018-05-30T07:17:16+00:00] INFO: Start handlers complete.
+[2018-05-30T07:17:16+00:00] ERROR: Running exception handlers
+[2018-05-30T07:17:16+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:17:16+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:17:16+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:17:16+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:17:16+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:44:43+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:44:43+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:44:43+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:44:43+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:44:43+00:00] INFO: Chef-client pid: 27666
+[2018-05-30T07:44:43+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:44:44+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T07:44:44+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T07:44:44+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T07:44:44+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:44:44+00:00] INFO: Running start handlers
+[2018-05-30T07:44:44+00:00] INFO: Start handlers complete.
+[2018-05-30T07:44:45+00:00] ERROR: Running exception handlers
+[2018-05-30T07:44:45+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:44:45+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:44:45+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:44:45+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:44:45+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:49:44+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:49:44+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:49:44+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:49:44+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:49:44+00:00] INFO: Chef-client pid: 27951
+[2018-05-30T07:49:44+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:49:45+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T07:49:45+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T07:49:45+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T07:49:45+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:49:45+00:00] INFO: Running start handlers
+[2018-05-30T07:49:45+00:00] INFO: Start handlers complete.
+[2018-05-30T07:49:45+00:00] ERROR: Running exception handlers
+[2018-05-30T07:49:45+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:49:45+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:49:45+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:49:45+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:49:46+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:51:23+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:51:23+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:51:23+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:51:23+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:51:23+00:00] INFO: Chef-client pid: 28236
+[2018-05-30T07:51:23+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:51:24+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T07:51:24+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T07:51:24+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T07:51:24+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:51:25+00:00] INFO: Running start handlers
+[2018-05-30T07:51:25+00:00] INFO: Start handlers complete.
+[2018-05-30T07:51:25+00:00] ERROR: Running exception handlers
+[2018-05-30T07:51:25+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:51:25+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:51:25+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:51:25+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:51:25+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T07:53:33+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T07:53:33+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T07:53:33+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T07:53:33+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T07:53:33+00:00] INFO: Chef-client pid: 28541
+[2018-05-30T07:53:33+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T07:53:34+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T07:53:34+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T07:53:34+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T07:53:34+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T07:53:34+00:00] INFO: Running start handlers
+[2018-05-30T07:53:34+00:00] INFO: Start handlers complete.
+[2018-05-30T07:53:35+00:00] ERROR: Running exception handlers
+[2018-05-30T07:53:35+00:00] ERROR: Exception handlers complete
+[2018-05-30T07:53:35+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T07:53:35+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T07:53:35+00:00] ERROR: 412 "Precondition Failed"
+[2018-05-30T07:53:35+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T08:02:16+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T08:02:16+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T08:02:16+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T08:02:16+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T08:02:16+00:00] INFO: Chef-client pid: 28846
+[2018-05-30T08:02:16+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T08:02:17+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T08:02:17+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T08:02:17+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T08:02:17+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T08:02:17+00:00] INFO: Running start handlers
+[2018-05-30T08:02:17+00:00] INFO: Start handlers complete.
+[2018-05-30T08:02:17+00:00] INFO: Loading cookbooks [example@1.0.0, jenkins@6.0.0, runit@1.7.0, dpkg_autostart@0.2.0, packagecloud@1.0.0]
+[2018-05-30T08:02:17+00:00] INFO: Storing updated cookbooks/example/metadata.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/metadata.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/LICENSE in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_helper.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_params_validate.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_executor.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/command.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_private_key.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_secret_text.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_user.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/job.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/plugin.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_password.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/script.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_jnlp.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_ssh.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_windows.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/user.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/attributes/default.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/attributes/executor.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/attributes/master.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/Gemfile in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/README.md in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-rhel.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.bat.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.xml.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-log-run.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-run.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-run.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_package.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_war.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/recipes/java.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/recipes/master.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-debian.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/jenkins/chefignore in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/metadata.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/files/default/runit.seed in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/files/default/runsvdir in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/files/ubuntu-6.10/runsvdir in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/files/ubuntu-7.10/runsvdir in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/files/ubuntu-8.04/runsvdir in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/Cheffile in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/Gemfile.lock in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/LICENSE in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/libraries/default.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/libraries/matchers.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/libraries/provider_runit_service.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/libraries/resource_runit_service.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/Berksfile.disabled in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/attributes/default.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/Gemfile in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/README.md in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/templates/debian/init.d.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/libraries/helpers.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/files/ubuntu-7.04/runsvdir in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/templates/default/log-config.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/templates/gentoo/runit-start.sh.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/recipes/default.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/.ruby-version in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/runit/metadata.json in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/dpkg_autostart/metadata.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/dpkg_autostart/libraries/provider.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/dpkg_autostart/libraries/resource.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/dpkg_autostart/attributes/default.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/dpkg_autostart/templates/default/policy-rc.d.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/dpkg_autostart/recipes/default.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/dpkg_autostart/metadata.json in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/metadata.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/Gemfile.lock in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/bake in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/berks in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/dpkg_autostart/README.md in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/bundle in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/bundler in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/chef-apply in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/chef-client in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/chef-shell in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/chef-solo in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/chef-zero in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/erubis in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/fauxhai in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/ffi-yajl-bench in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/fission in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/fog in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/foodcritic in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/htmldiff in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/httpclient in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/kitchen in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/knife in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/ldiff in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/minitar in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/nokogiri in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/ohai in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/pirb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/pruby in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/rackup in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/rake in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/rspec in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/rubocop in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/ruby-parse in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/ruby-rewrite in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/safe_yaml in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/serverspec-init in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/stove in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/tt in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/LICENSE in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/libraries/helper.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/libraries/matchers.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/Thorfile in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/attributes/default.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/Gemfile in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/README.md in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/bin/thor in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/templates/.kitchen/logs/kitchen.log in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/templates/default/apt.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/templates/default/yum.erb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/.ruby-version in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/chefignore in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/metadata.json in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/resources/repo.rb in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Storing updated cookbooks/packagecloud/THANKS in the cache.
+[2018-05-30T08:02:18+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-30T08:02:18+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-30T08:02:18+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-30T08:02:18+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-30T08:02:18+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-30T08:02:18+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-30T08:02:18+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-30T08:02:18+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-30T08:02:18+00:00] INFO: Processing jenkins_command[safe-restart] action execute (example::jenkins line 13)
+[2018-05-30T08:02:20+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar] action create (dynamically defined)
+[2018-05-30T08:02:20+00:00] INFO: remote_file[/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar] created file /home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar
+[2018-05-30T08:02:20+00:00] INFO: remote_file[/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar] updated file contents /home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar
+[2018-05-30T08:02:20+00:00] INFO: remote_file[/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar] mode changed to 755
+[2018-05-30T08:02:20+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-30T08:02:20+00:00] ERROR: Running exception handlers
+[2018-05-30T08:02:20+00:00] ERROR: Exception handlers complete
+[2018-05-30T08:02:20+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T08:02:20+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T08:02:20+00:00] ERROR: jenkins_command[safe-restart] (example::jenkins line 13) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '255'
+---- Begin output of "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" safe-restart ----
+STDOUT: 
+STDERR: java.io.IOException: No X-Jenkins-CLI2-Port among [X-Jenkins, null, Server, X-Content-Type-Options, X-You-Are-In-Group-Disabled, X-Hudson, Date, X-Jenkins-Session, X-You-Are-Authenticated-As, X-Required-Permission, Set-Cookie, Expires, Content-Length, Content-Type]
+	at hudson.cli.CLI.getCliTcpPort(CLI.java:311)
+	at hudson.cli.CLI.<init>(CLI.java:137)
+	at hudson.cli.CLIConnectionFactory.connect(CLIConnectionFactory.java:82)
+	at hudson.cli.CLI._main(CLI.java:615)
+	at hudson.cli.CLI.main(CLI.java:426)
+	Suppressed: java.io.IOException: Server returned HTTP response code: 403 for URL: http://localhost:8080/cli?remoting=true
+		at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+		at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+		at hudson.cli.FullDuplexHttpStream.<init>(FullDuplexHttpStream.java:101)
+		at hudson.cli.CLI.connectViaHttp(CLI.java:163)
+		at hudson.cli.CLI.<init>(CLI.java:141)
+		... 3 more
+---- End output of "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" safe-restart ----
+Ran "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" safe-restart returned 255
+[2018-05-30T08:02:20+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T08:05:11+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T08:05:11+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T08:05:11+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T08:05:11+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T08:05:11+00:00] INFO: Chef-client pid: 29423
+[2018-05-30T08:05:11+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T08:05:13+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T08:05:13+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T08:05:13+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T08:05:13+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T08:05:13+00:00] INFO: Running start handlers
+[2018-05-30T08:05:13+00:00] INFO: Start handlers complete.
+[2018-05-30T08:05:13+00:00] INFO: Loading cookbooks [example@1.0.0, jenkins@6.0.0, runit@1.7.0, dpkg_autostart@0.2.0, packagecloud@1.0.0]
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/metadata.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/LICENSE from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_private_key.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/job.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/plugin.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/_helper.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_password.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/slave.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_ssh.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/command.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/_params_validate.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/_executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/script.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_secret_text.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_jnlp.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_windows.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/attributes/default.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/attributes/executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/attributes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/Gemfile from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/README.md from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.bat.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.xml.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-debian.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-rhel.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/recipes/java.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/recipes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_war.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_package.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Removing cookbooks/jenkins/chefignore from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/metadata.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/LICENSE in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_executor.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_helper.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_params_validate.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/command.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_password.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_private_key.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_secret_text.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_user.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/job.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/plugin.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/script.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_jnlp.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_ssh.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_windows.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/libraries/user.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/attributes/default.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/attributes/executor.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/attributes/master.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/Gemfile in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/README.md in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-debian.erb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-rhel.erb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.bat.erb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.xml.erb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-log-run.erb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-run.erb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-run.erb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_package.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/recipes/java.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/recipes/master.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/chefignore in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_war.rb in the cache.
+[2018-05-30T08:05:13+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-30T08:05:13+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-30T08:05:13+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-30T08:05:13+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-30T08:05:14+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-30T08:05:14+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-30T08:05:14+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-30T08:05:14+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-30T08:05:14+00:00] INFO: Processing jenkins_command[safe-restart] action execute (example::jenkins line 13)
+[2018-05-30T08:05:14+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar] action create (dynamically defined)
+[2018-05-30T08:05:14+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-30T08:05:14+00:00] ERROR: Running exception handlers
+[2018-05-30T08:05:14+00:00] ERROR: Exception handlers complete
+[2018-05-30T08:05:14+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T08:05:14+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T08:05:14+00:00] ERROR: jenkins_command[safe-restart] (example::jenkins line 13) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '255'
+---- Begin output of "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" safe-restart ----
+STDOUT: 
+STDERR: java.io.IOException: No X-Jenkins-CLI2-Port among [X-Jenkins, null, Server, X-Content-Type-Options, X-You-Are-In-Group-Disabled, X-Hudson, Date, X-Jenkins-Session, X-You-Are-Authenticated-As, X-Required-Permission, Set-Cookie, Expires, Content-Length, Content-Type]
+	at hudson.cli.CLI.getCliTcpPort(CLI.java:311)
+	at hudson.cli.CLI.<init>(CLI.java:137)
+	at hudson.cli.CLIConnectionFactory.connect(CLIConnectionFactory.java:82)
+	at hudson.cli.CLI._main(CLI.java:615)
+	at hudson.cli.CLI.main(CLI.java:426)
+	Suppressed: java.io.IOException: Server returned HTTP response code: 403 for URL: http://localhost:8080/cli?remoting=true
+		at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+		at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+		at hudson.cli.FullDuplexHttpStream.<init>(FullDuplexHttpStream.java:101)
+		at hudson.cli.CLI.connectViaHttp(CLI.java:163)
+		at hudson.cli.CLI.<init>(CLI.java:141)
+		... 3 more
+---- End output of "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" safe-restart ----
+Ran "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" safe-restart returned 255
+[2018-05-30T08:05:14+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T08:22:17+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T08:22:17+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T08:22:17+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T08:22:17+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T08:22:17+00:00] INFO: Chef-client pid: 30101
+[2018-05-30T08:22:17+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T08:22:18+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T08:22:18+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T08:22:18+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T08:22:18+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T08:22:18+00:00] INFO: Running start handlers
+[2018-05-30T08:22:18+00:00] INFO: Start handlers complete.
+[2018-05-30T08:22:18+00:00] INFO: Loading cookbooks [example@1.0.0, jenkins@6.0.0, runit@1.7.0, dpkg_autostart@0.2.0, packagecloud@1.0.0]
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/metadata.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/LICENSE from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_private_key.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/job.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/plugin.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/_helper.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_password.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/slave.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_ssh.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/command.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/_params_validate.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/_executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/script.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_secret_text.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_jnlp.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_windows.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/attributes/default.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/attributes/executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/attributes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/Gemfile from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/README.md from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.bat.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.xml.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-debian.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-rhel.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/recipes/java.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/recipes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_war.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_package.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Removing cookbooks/jenkins/chefignore from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/metadata.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_executor.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_helper.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_params_validate.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/command.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/LICENSE in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_private_key.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_secret_text.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_user.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/job.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/plugin.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/script.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_jnlp.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_ssh.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_password.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_windows.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/libraries/user.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/attributes/default.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/attributes/executor.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/attributes/master.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/Gemfile in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-debian.erb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/README.md in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-rhel.erb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.bat.erb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.xml.erb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-run.erb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-log-run.erb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-run.erb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_package.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_war.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/recipes/java.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/recipes/master.rb in the cache.
+[2018-05-30T08:22:18+00:00] INFO: Storing updated cookbooks/jenkins/chefignore in the cache.
+[2018-05-30T08:22:19+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-30T08:22:19+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-30T08:22:19+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-30T08:22:19+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-30T08:22:19+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-30T08:22:19+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-30T08:22:19+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-30T08:22:19+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-30T08:22:19+00:00] INFO: Processing jenkins_command[safe-restart] action execute (example::jenkins line 13)
+[2018-05-30T08:22:19+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar] action create (dynamically defined)
+[2018-05-30T08:22:19+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-30T08:22:19+00:00] ERROR: Running exception handlers
+[2018-05-30T08:22:19+00:00] ERROR: Exception handlers complete
+[2018-05-30T08:22:19+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T08:22:19+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T08:22:19+00:00] ERROR: jenkins_command[safe-restart] (example::jenkins line 13) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '255'
+---- Begin output of "/usr/lib/jvm/java-8-oracle/bin/java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" safe-restart ----
+STDOUT: 
+STDERR: java.io.IOException: No X-Jenkins-CLI2-Port among [X-Jenkins, null, Server, X-Content-Type-Options, X-You-Are-In-Group-Disabled, X-Hudson, Date, X-Jenkins-Session, X-You-Are-Authenticated-As, X-Required-Permission, Set-Cookie, Expires, Content-Length, Content-Type]
+	at hudson.cli.CLI.getCliTcpPort(CLI.java:311)
+	at hudson.cli.CLI.<init>(CLI.java:137)
+	at hudson.cli.CLIConnectionFactory.connect(CLIConnectionFactory.java:82)
+	at hudson.cli.CLI._main(CLI.java:615)
+	at hudson.cli.CLI.main(CLI.java:426)
+	Suppressed: java.io.IOException: Server returned HTTP response code: 403 for URL: http://localhost:8080/cli?remoting=true
+		at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+		at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+		at hudson.cli.FullDuplexHttpStream.<init>(FullDuplexHttpStream.java:101)
+		at hudson.cli.CLI.connectViaHttp(CLI.java:163)
+		at hudson.cli.CLI.<init>(CLI.java:141)
+		... 3 more
+---- End output of "/usr/lib/jvm/java-8-oracle/bin/java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" safe-restart ----
+Ran "/usr/lib/jvm/java-8-oracle/bin/java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" safe-restart returned 255
+[2018-05-30T08:22:20+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T09:08:53+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T09:08:53+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T09:08:53+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T09:08:53+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T09:08:53+00:00] INFO: Chef-client pid: 30988
+[2018-05-30T09:08:53+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T09:08:54+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T09:08:54+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T09:08:54+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T09:08:54+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T09:08:54+00:00] INFO: Running start handlers
+[2018-05-30T09:08:54+00:00] INFO: Start handlers complete.
+[2018-05-30T09:08:55+00:00] INFO: Loading cookbooks [example@1.0.0, jenkins@6.0.0, runit@1.7.0, dpkg_autostart@0.2.0, packagecloud@1.0.0]
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/metadata.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/LICENSE from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_private_key.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/job.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/plugin.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/_helper.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_password.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/slave.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_ssh.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/command.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/_params_validate.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/_executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/script.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_secret_text.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_jnlp.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_windows.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/attributes/default.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/attributes/executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/attributes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/Gemfile from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/README.md from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.bat.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.xml.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-debian.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-rhel.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/recipes/java.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/recipes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_war.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_package.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Removing cookbooks/jenkins/chefignore from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/LICENSE in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_executor.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_helper.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_params_validate.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/metadata.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/command.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_password.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_private_key.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_secret_text.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/job.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/plugin.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/script.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_jnlp.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_ssh.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_windows.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/user.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/attributes/default.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/attributes/executor.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/attributes/master.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/README.md in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-debian.erb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-rhel.erb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_user.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.bat.erb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.xml.erb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-log-run.erb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-run.erb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-run.erb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_package.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_war.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/Gemfile in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/recipes/java.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/recipes/master.rb in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Storing updated cookbooks/jenkins/chefignore in the cache.
+[2018-05-30T09:08:55+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-30T09:08:55+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-30T09:08:55+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-30T09:08:55+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-30T09:08:55+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-30T09:08:55+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-30T09:08:55+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-30T09:08:55+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-30T09:08:55+00:00] INFO: Processing bash[start-jenkins] action run (example::jenkins line 13)
+[2018-05-30T09:08:57+00:00] INFO: bash[start-jenkins] ran successfully
+[2018-05-30T09:08:57+00:00] INFO: Chef Run complete in 2.477626822 seconds
+[2018-05-30T09:08:57+00:00] INFO: Running report handlers
+[2018-05-30T09:08:57+00:00] INFO: Report handlers complete
+[2018-05-30T09:08:57+00:00] WARN: *****************************************
+[2018-05-30T09:08:57+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-30T09:08:57+00:00] WARN: *****************************************
+[2018-05-30T09:08:57+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-30T09:10:10+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T09:10:10+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T09:10:10+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T09:10:10+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T09:10:10+00:00] INFO: Chef-client pid: 31780
+[2018-05-30T09:10:10+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T09:10:11+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T09:10:11+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T09:10:11+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T09:10:11+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T09:10:11+00:00] INFO: Running start handlers
+[2018-05-30T09:10:11+00:00] INFO: Start handlers complete.
+[2018-05-30T09:10:12+00:00] INFO: Loading cookbooks [example@1.0.0, jenkins@6.0.0, runit@1.7.0, dpkg_autostart@0.2.0, packagecloud@1.0.0]
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/metadata.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/LICENSE from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_private_key.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/job.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/plugin.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/_helper.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_password.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/slave.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_ssh.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/command.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/_params_validate.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/_executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/script.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_secret_text.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_jnlp.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_windows.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/attributes/default.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/attributes/executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/attributes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/Gemfile from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/README.md from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.bat.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.xml.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-debian.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-rhel.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/recipes/java.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/recipes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_war.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_package.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Removing cookbooks/jenkins/chefignore from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/metadata.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/LICENSE in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_helper.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_params_validate.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/command.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_executor.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_private_key.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_secret_text.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_user.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/job.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/plugin.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/script.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_jnlp.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_ssh.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_windows.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/user.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/attributes/default.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/attributes/executor.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_password.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/attributes/master.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/Gemfile in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/README.md in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-debian.erb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-rhel.erb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.bat.erb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.xml.erb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-log-run.erb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-run.erb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-run.erb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_package.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_war.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/recipes/java.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/chefignore in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Storing updated cookbooks/jenkins/recipes/master.rb in the cache.
+[2018-05-30T09:10:12+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-30T09:10:12+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-30T09:10:12+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-30T09:10:12+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-30T09:10:12+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-30T09:10:12+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-30T09:10:12+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-30T09:10:12+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-30T09:10:13+00:00] INFO: Processing bash[start-jenkins] action run (example::jenkins line 13)
+[2018-05-30T09:10:14+00:00] INFO: bash[start-jenkins] ran successfully
+[2018-05-30T09:10:14+00:00] INFO: Chef Run complete in 2.530837245 seconds
+[2018-05-30T09:10:14+00:00] INFO: Running report handlers
+[2018-05-30T09:10:14+00:00] INFO: Report handlers complete
+[2018-05-30T09:10:14+00:00] WARN: *****************************************
+[2018-05-30T09:10:14+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-30T09:10:14+00:00] WARN: *****************************************
+[2018-05-30T09:10:14+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-30T10:40:03+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T10:40:03+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T10:40:03+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T10:40:03+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T10:40:03+00:00] INFO: Chef-client pid: 32665
+[2018-05-30T10:40:03+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T10:40:05+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T10:40:05+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T10:40:05+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T10:40:05+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T10:40:05+00:00] INFO: Running start handlers
+[2018-05-30T10:40:05+00:00] INFO: Start handlers complete.
+[2018-05-30T10:40:05+00:00] INFO: Loading cookbooks [example@1.0.0, jenkins@6.0.0, runit@1.7.0, dpkg_autostart@0.2.0, packagecloud@1.0.0]
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/metadata.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/LICENSE from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_private_key.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/job.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/plugin.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/_helper.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_password.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/slave.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_ssh.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/command.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/_params_validate.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/_executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/script.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_secret_text.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_jnlp.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_windows.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/attributes/default.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/attributes/executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/attributes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/Gemfile from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/README.md from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.bat.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.xml.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-debian.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-rhel.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/recipes/java.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/recipes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_war.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_package.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Removing cookbooks/jenkins/chefignore from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/LICENSE in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_executor.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_helper.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_params_validate.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/command.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/metadata.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_password.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_private_key.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_secret_text.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_user.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/job.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/plugin.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/script.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_jnlp.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_ssh.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_windows.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/libraries/user.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/attributes/default.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/attributes/executor.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/attributes/master.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/Gemfile in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/README.md in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-debian.erb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-rhel.erb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.xml.erb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-log-run.erb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-run.erb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-run.erb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_package.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_war.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/recipes/java.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.bat.erb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/recipes/master.rb in the cache.
+[2018-05-30T10:40:05+00:00] INFO: Storing updated cookbooks/jenkins/chefignore in the cache.
+[2018-05-30T10:40:05+00:00] ERROR: Running exception handlers
+[2018-05-30T10:40:05+00:00] ERROR: Exception handlers complete
+[2018-05-30T10:40:05+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T10:40:05+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T10:40:05+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/jenkins.rb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+/secrets/initialAdminPassword')'
+                              ^
+/home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/jenkins.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-30T10:40:05+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T10:42:44+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T10:42:44+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T10:42:44+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T10:42:44+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T10:42:44+00:00] INFO: Chef-client pid: 507
+[2018-05-30T10:42:44+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T10:42:45+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T10:42:45+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T10:42:45+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T10:42:45+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T10:42:45+00:00] INFO: Running start handlers
+[2018-05-30T10:42:45+00:00] INFO: Start handlers complete.
+[2018-05-30T10:42:45+00:00] INFO: Loading cookbooks [example@1.0.0, jenkins@6.0.0, runit@1.7.0, dpkg_autostart@0.2.0, packagecloud@1.0.0]
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/metadata.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/LICENSE from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_private_key.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/job.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/plugin.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/_helper.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_password.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/slave.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_ssh.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/command.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/_params_validate.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/_executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/script.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_secret_text.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_jnlp.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_windows.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/attributes/default.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/attributes/executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/attributes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/Gemfile from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/README.md from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.bat.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.xml.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-debian.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-rhel.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/recipes/java.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/recipes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_war.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_package.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Removing cookbooks/jenkins/chefignore from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/metadata.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/LICENSE in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_executor.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_helper.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_params_validate.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/command.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_password.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_private_key.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_secret_text.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_user.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/job.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/plugin.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/script.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_jnlp.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_ssh.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_windows.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/user.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/attributes/default.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/attributes/executor.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/attributes/master.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-rhel.erb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/Gemfile in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-run.erb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-run.erb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_package.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/README.md in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-debian.erb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.xml.erb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-log-run.erb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_war.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.bat.erb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/recipes/java.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/recipes/master.rb in the cache.
+[2018-05-30T10:42:45+00:00] INFO: Storing updated cookbooks/jenkins/chefignore in the cache.
+[2018-05-30T10:42:46+00:00] ERROR: Running exception handlers
+[2018-05-30T10:42:46+00:00] ERROR: Exception handlers complete
+[2018-05-30T10:42:46+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T10:42:46+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T10:42:46+00:00] ERROR: /home/ubuntu/jenkins-repo/.chef/cache/cookbooks/example/recipes/jenkins.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+[2018-05-30T10:42:46+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T10:47:25+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T10:47:25+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T10:47:25+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T10:47:25+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T10:47:25+00:00] INFO: Chef-client pid: 816
+[2018-05-30T10:47:25+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T10:47:26+00:00] INFO: Setting the run_list to ["recipe[example::jenkins]"] from CLI options
+[2018-05-30T10:47:26+00:00] INFO: Run List is [recipe[example::jenkins]]
+[2018-05-30T10:47:26+00:00] INFO: Run List expands to [example::jenkins]
+[2018-05-30T10:47:26+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T10:47:26+00:00] INFO: Running start handlers
+[2018-05-30T10:47:26+00:00] INFO: Start handlers complete.
+[2018-05-30T10:47:27+00:00] INFO: Loading cookbooks [example@1.0.0, jenkins@6.0.0, runit@1.7.0, dpkg_autostart@0.2.0, packagecloud@1.0.0]
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/metadata.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/LICENSE from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_private_key.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/job.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/plugin.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/_helper.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_password.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/slave.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_ssh.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/command.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/_params_validate.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/_executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/script.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_secret_text.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_jnlp.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_windows.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/attributes/default.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/attributes/executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/attributes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/Gemfile from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/README.md from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.bat.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.xml.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-debian.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-rhel.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/recipes/java.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/recipes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_war.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_package.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Removing cookbooks/jenkins/chefignore from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/metadata.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/LICENSE in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_helper.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_params_validate.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/command.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_executor.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_password.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_private_key.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_secret_text.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_user.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/plugin.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/script.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_jnlp.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_ssh.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_windows.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/user.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/attributes/default.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/libraries/job.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/attributes/executor.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/attributes/master.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/Gemfile in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/README.md in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-debian.erb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-rhel.erb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.bat.erb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.xml.erb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-log-run.erb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-run.erb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-run.erb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_package.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_war.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/recipes/java.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/recipes/master.rb in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Storing updated cookbooks/jenkins/chefignore in the cache.
+[2018-05-30T10:47:27+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-30T10:47:27+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-30T10:47:27+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-30T10:47:27+00:00] INFO: Processing execute[apt-key add /home/ubuntu/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-30T10:47:27+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-30T10:47:27+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-30T10:47:27+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-30T10:47:27+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-30T10:47:27+00:00] INFO: Processing bash[start-jenkins] action run (example::jenkins line 13)
+[2018-05-30T10:47:27+00:00] INFO: bash[start-jenkins] ran successfully
+[2018-05-30T10:47:27+00:00] INFO: Processing jenkins_script[add_authentication] action execute (example::jenkins line 22)
+[2018-05-30T10:47:28+00:00] INFO: Processing remote_file[/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar] action create (dynamically defined)
+[2018-05-30T10:47:28+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-30T10:47:28+00:00] ERROR: Running exception handlers
+[2018-05-30T10:47:28+00:00] ERROR: Exception handlers complete
+[2018-05-30T10:47:28+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T10:47:28+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T10:47:28+00:00] ERROR: jenkins_script[add_authentication] (example::jenkins line 22) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '255'
+---- Begin output of "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" groovy = ----
+STDOUT: 
+STDERR: java.io.IOException: No X-Jenkins-CLI2-Port among [X-Jenkins, null, Server, X-Content-Type-Options, X-You-Are-In-Group-Disabled, X-Hudson, Date, X-Jenkins-Session, X-You-Are-Authenticated-As, X-Required-Permission, Set-Cookie, Expires, Content-Length, Content-Type]
+	at hudson.cli.CLI.getCliTcpPort(CLI.java:311)
+	at hudson.cli.CLI.<init>(CLI.java:137)
+	at hudson.cli.CLIConnectionFactory.connect(CLIConnectionFactory.java:82)
+	at hudson.cli.CLI._main(CLI.java:615)
+	at hudson.cli.CLI.main(CLI.java:426)
+	Suppressed: java.io.IOException: Server returned HTTP response code: 403 for URL: http://localhost:8080/cli?remoting=true
+		at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+		at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+		at hudson.cli.FullDuplexHttpStream.<init>(FullDuplexHttpStream.java:101)
+		at hudson.cli.CLI.connectViaHttp(CLI.java:163)
+		at hudson.cli.CLI.<init>(CLI.java:141)
+		... 3 more
+---- End output of "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" groovy = ----
+Ran "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http://localhost:8080 -"remoting" groovy = returned 255
+[2018-05-30T10:47:28+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-30T11:14:35+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/jenkins-repo
+  One version per cookbook
+
+[2018-05-30T11:14:35+00:00] INFO: Forking chef instance to converge...
+[2018-05-30T11:14:36+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-30T11:14:36+00:00] INFO: Platform: x86_64-linux
+[2018-05-30T11:14:36+00:00] INFO: Chef-client pid: 1469
+[2018-05-30T11:14:36+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-30T11:14:37+00:00] INFO: Setting the run_list to ["recipe[example::peripheral.rb]"] from CLI options
+[2018-05-30T11:14:37+00:00] INFO: Run List is [recipe[example::peripheral.rb]]
+[2018-05-30T11:14:37+00:00] INFO: Run List expands to [example::peripheral.rb]
+[2018-05-30T11:14:37+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-30T11:14:37+00:00] INFO: Running start handlers
+[2018-05-30T11:14:37+00:00] INFO: Start handlers complete.
+[2018-05-30T11:14:37+00:00] INFO: Loading cookbooks [example@1.0.0, jenkins@6.0.0, runit@1.7.0, dpkg_autostart@0.2.0, packagecloud@1.0.0]
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/metadata.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/LICENSE from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_private_key.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/job.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/plugin.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/_helper.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_password.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/user.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/slave.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_ssh.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/command.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/_params_validate.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/_executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/script.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/credentials_secret_text.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_jnlp.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/libraries/slave_windows.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/attributes/default.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/attributes/executor.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/attributes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/Gemfile from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/README.md from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.bat.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-slave.xml.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-debian.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/templates/sv-jenkins-log-run.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/templates/jenkins-config-rhel.erb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/recipes/java.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/recipes/master.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_war.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/recipes/_master_package.rb from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Removing cookbooks/jenkins/chefignore from the cache; its cookbook is no longer needed on this client.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/example/recipes/peripheral.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/metadata.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/LICENSE in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_executor.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_helper.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/_params_validate.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_password.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_private_key.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_secret_text.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/command.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/example/recipes/jenkins.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/credentials_user.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/job.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/plugin.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/script.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_jnlp.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_windows.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/user.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/libraries/slave_ssh.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/attributes/default.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/attributes/executor.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/attributes/master.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/Gemfile in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/README.md in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-debian.erb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-config-rhel.erb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.bat.erb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/templates/jenkins-slave.xml.erb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-log-run.erb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-run.erb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-log-run.erb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/templates/sv-jenkins-slave-run.erb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_package.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/recipes/_master_war.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/recipes/java.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/recipes/master.rb in the cache.
+[2018-05-30T11:14:37+00:00] INFO: Storing updated cookbooks/jenkins/chefignore in the cache.
+[2018-05-30T11:14:37+00:00] ERROR: Running exception handlers
+[2018-05-30T11:14:37+00:00] ERROR: Exception handlers complete
+[2018-05-30T11:14:37+00:00] FATAL: Stacktrace dumped to /home/ubuntu/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-30T11:14:37+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-30T11:14:37+00:00] ERROR: could not find recipe peripheral.rb for cookbook example
+[2018-05-30T11:14:37+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
