@@ -1,3 +1,3 @@
 {
-  "run_list": ["recipe[example::java]","recipe[example::dotnetcore]","recipe[example::jenkins]"]
+  "run_list": ["recipe[example::default]"]
 }

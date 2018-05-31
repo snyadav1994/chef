@@ -2648,3 +2648,352 @@ Ran "java" -jar "/home/ubuntu/jenkins-repo/.chef/cache/jenkins-cli.jar" -s http:
 [2018-05-31T10:46:13+00:00] WARN: Did not find config file: /solo.rb, using command line options.
 [2018-05-31T10:46:13+00:00] WARN: *****************************************
 [2018-05-31T10:46:13+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-31T12:07:26+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/sneha/chef/jenkins-repo
+  One version per cookbook
+
+[2018-05-31T12:07:26+00:00] INFO: Forking chef instance to converge...
+[2018-05-31T12:07:26+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-31T12:07:26+00:00] INFO: Platform: x86_64-linux
+[2018-05-31T12:07:26+00:00] INFO: Chef-client pid: 14697
+[2018-05-31T12:07:26+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-31T12:07:27+00:00] INFO: Setting the run_list to ["recipe[example::java]", "recipe[example::dotnetcore]", "recipe[example::jenkins]"] from CLI options
+[2018-05-31T12:07:27+00:00] INFO: Run List is [recipe[example::java], recipe[example::dotnetcore], recipe[example::jenkins]]
+[2018-05-31T12:07:27+00:00] INFO: Run List expands to [example::java, example::dotnetcore, example::jenkins]
+[2018-05-31T12:07:27+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-31T12:07:27+00:00] INFO: Running start handlers
+[2018-05-31T12:07:27+00:00] INFO: Start handlers complete.
+[2018-05-31T12:07:27+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-31T12:07:27+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-31T12:07:27+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-31T12:07:28+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T12:07:28+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T12:07:28+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T12:07:28+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-31T12:07:28+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-31T12:07:28+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-31T12:07:28+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-31T12:07:28+00:00] INFO: Processing apt_repository[dotnetdev] action add (example::dotnetcore line 1)
+[2018-05-31T12:07:28+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-31T12:07:28+00:00] ERROR: Running exception handlers
+[2018-05-31T12:07:28+00:00] ERROR: Exception handlers complete
+[2018-05-31T12:07:28+00:00] FATAL: Stacktrace dumped to /home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-31T12:07:28+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-31T12:07:28+00:00] ERROR: apt_repository[dotnetdev] (example::dotnetcore line 1) had an error: Chef::Exceptions::FileNotFound: Cannot locate key file
+[2018-05-31T12:07:28+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-31T12:16:19+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/sneha/chef/jenkins-repo
+  One version per cookbook
+
+[2018-05-31T12:16:19+00:00] INFO: Forking chef instance to converge...
+[2018-05-31T12:16:19+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-31T12:16:19+00:00] INFO: Platform: x86_64-linux
+[2018-05-31T12:16:19+00:00] INFO: Chef-client pid: 15439
+[2018-05-31T12:16:19+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-31T12:16:20+00:00] INFO: Setting the run_list to ["recipe[example::java]", "recipe[example::dotnetcore]", "recipe[example::jenkins]"] from CLI options
+[2018-05-31T12:16:20+00:00] INFO: Run List is [recipe[example::java], recipe[example::dotnetcore], recipe[example::jenkins]]
+[2018-05-31T12:16:20+00:00] INFO: Run List expands to [example::java, example::dotnetcore, example::jenkins]
+[2018-05-31T12:16:20+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-31T12:16:20+00:00] INFO: Running start handlers
+[2018-05-31T12:16:20+00:00] INFO: Start handlers complete.
+[2018-05-31T12:16:20+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-31T12:16:20+00:00] INFO: Storing updated cookbooks/example/recipes/dotnetcore.rb in the cache.
+[2018-05-31T12:16:20+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-31T12:16:20+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-31T12:16:21+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T12:16:21+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T12:16:21+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T12:16:21+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-31T12:16:21+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-31T12:16:21+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-31T12:16:21+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-31T12:16:21+00:00] INFO: Processing apt_package[apt-trasnport-https] action install (example::dotnetcore line 1)
+[2018-05-31T12:16:21+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-31T12:16:21+00:00] ERROR: Running exception handlers
+[2018-05-31T12:16:21+00:00] ERROR: Exception handlers complete
+[2018-05-31T12:16:21+00:00] FATAL: Stacktrace dumped to /home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-31T12:16:21+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-31T12:16:21+00:00] ERROR: apt_package[apt-trasnport-https] (example::dotnetcore line 1) had an error: Chef::Exceptions::Package: No candidate version available for apt-trasnport-https
+[2018-05-31T12:16:21+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-31T12:24:22+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/sneha/chef/jenkins-repo
+  One version per cookbook
+
+[2018-05-31T12:24:22+00:00] INFO: Forking chef instance to converge...
+[2018-05-31T12:24:22+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-31T12:24:22+00:00] INFO: Platform: x86_64-linux
+[2018-05-31T12:24:22+00:00] INFO: Chef-client pid: 16187
+[2018-05-31T12:24:22+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-31T12:24:23+00:00] INFO: Setting the run_list to ["recipe[example::java]", "recipe[example::dotnetcore]", "recipe[example::jenkins]"] from CLI options
+[2018-05-31T12:24:23+00:00] INFO: Run List is [recipe[example::java], recipe[example::dotnetcore], recipe[example::jenkins]]
+[2018-05-31T12:24:23+00:00] INFO: Run List expands to [example::java, example::dotnetcore, example::jenkins]
+[2018-05-31T12:24:23+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-31T12:24:23+00:00] INFO: Running start handlers
+[2018-05-31T12:24:23+00:00] INFO: Start handlers complete.
+[2018-05-31T12:24:23+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-31T12:24:23+00:00] INFO: Storing updated cookbooks/example/recipes/dotnetcore.rb in the cache.
+[2018-05-31T12:24:23+00:00] INFO: Storing updated cookbooks/example/attributes/default.rb in the cache.
+[2018-05-31T12:24:23+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-31T12:24:23+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-31T12:24:24+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T12:24:24+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T12:24:24+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T12:24:24+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-31T12:24:24+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-31T12:24:24+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-31T12:24:24+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-31T12:24:24+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::dotnetcore line 1)
+[2018-05-31T12:24:24+00:00] INFO: Processing apt_repository[dotnetdev] action add (example::dotnetcore line 3)
+[2018-05-31T12:24:24+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T12:24:24+00:00] INFO: Processing apt_update[dotnetdev] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T12:24:24+00:00] INFO: Processing file[/etc/apt/sources.list.d/dotnetdev.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T12:24:24+00:00] INFO: file[/etc/apt/sources.list.d/dotnetdev.list] created file /etc/apt/sources.list.d/dotnetdev.list
+[2018-05-31T12:24:24+00:00] INFO: file[/etc/apt/sources.list.d/dotnetdev.list] updated file contents /etc/apt/sources.list.d/dotnetdev.list
+[2018-05-31T12:24:24+00:00] INFO: file[/etc/apt/sources.list.d/dotnetdev.list] owner changed to 0
+[2018-05-31T12:24:24+00:00] INFO: file[/etc/apt/sources.list.d/dotnetdev.list] group changed to 0
+[2018-05-31T12:24:24+00:00] INFO: file[/etc/apt/sources.list.d/dotnetdev.list] mode changed to 644
+[2018-05-31T12:24:24+00:00] INFO: file[/etc/apt/sources.list.d/dotnetdev.list] sending run action to execute[apt-cache gencaches] (immediate)
+[2018-05-31T12:24:24+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T12:24:24+00:00] ERROR: execute[apt-cache gencaches] (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '100'
+---- Begin output of apt-cache gencaches ----
+STDOUT: 
+STDERR: E: Malformed entry 1 in list file /etc/apt/sources.list.d/dotnetdev.list (Component)
+E: The list of sources could not be read.
+---- End output of apt-cache gencaches ----
+Ran apt-cache gencaches returned 100; ignore_failure is set, continuing
+[2018-05-31T12:24:24+00:00] INFO: file[/etc/apt/sources.list.d/dotnetdev.list] sending update action to apt_update[dotnetdev] (immediate)
+[2018-05-31T12:24:24+00:00] INFO: Processing apt_update[dotnetdev] action update (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T12:24:24+00:00] INFO: Processing directory[/var/lib/apt/periodic] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-31T12:24:24+00:00] INFO: Processing directory[/etc/apt/apt.conf.d] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 60)
+[2018-05-31T12:24:24+00:00] INFO: Processing file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 65)
+[2018-05-31T12:24:24+00:00] INFO: Processing execute[apt-get -q update] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 70)
+[2018-05-31T12:24:24+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-31T12:24:24+00:00] ERROR: apt_update[dotnetdev] (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54) had an error: Mixlib::ShellOut::ShellCommandFailed: execute[apt-get -q update] (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_update.rb line 70) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '100'
+---- Begin output of apt-get -q update ----
+STDOUT: 
+STDERR: E: Malformed entry 1 in list file /etc/apt/sources.list.d/dotnetdev.list (Component)
+E: The list of sources could not be read.
+---- End output of apt-get -q update ----
+Ran apt-get -q update returned 100; ignore_failure is set, continuing
+[2018-05-31T12:24:24+00:00] INFO: Processing bash[install-dotnetcore] action run (example::dotnetcore line 8)
+[2018-05-31T12:24:24+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-31T12:24:24+00:00] ERROR: Running exception handlers
+[2018-05-31T12:24:24+00:00] ERROR: Exception handlers complete
+[2018-05-31T12:24:24+00:00] FATAL: Stacktrace dumped to /home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-31T12:24:24+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-31T12:24:24+00:00] ERROR: bash[install-dotnetcore] (example::dotnetcore line 8) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '100'
+---- Begin output of "bash"  "/tmp/chef-script20180531-16187-e4ttq6" ----
+STDOUT: 
+STDERR: E: Malformed entry 1 in list file /etc/apt/sources.list.d/dotnetdev.list (Component)
+E: The list of sources could not be read.
+E: Malformed entry 1 in list file /etc/apt/sources.list.d/dotnetdev.list (Component)
+E: The list of sources could not be read.
+E: Malformed entry 1 in list file /etc/apt/sources.list.d/dotnetdev.list (Component)
+E: The list of sources could not be read.
+---- End output of "bash"  "/tmp/chef-script20180531-16187-e4ttq6" ----
+Ran "bash"  "/tmp/chef-script20180531-16187-e4ttq6" returned 100
+[2018-05-31T12:24:24+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-31T12:45:24+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/sneha/chef/jenkins-repo
+  One version per cookbook
+
+[2018-05-31T12:45:24+00:00] INFO: Forking chef instance to converge...
+[2018-05-31T12:45:24+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-31T12:45:24+00:00] INFO: Platform: x86_64-linux
+[2018-05-31T12:45:24+00:00] INFO: Chef-client pid: 16969
+[2018-05-31T12:45:24+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-31T12:45:26+00:00] INFO: Setting the run_list to ["recipe[example::java]", "recipe[example::dotnetcore]", "recipe[example::jenkins]"] from CLI options
+[2018-05-31T12:45:26+00:00] INFO: Run List is [recipe[example::java], recipe[example::dotnetcore], recipe[example::jenkins]]
+[2018-05-31T12:45:26+00:00] INFO: Run List expands to [example::java, example::dotnetcore, example::jenkins]
+[2018-05-31T12:45:26+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-31T12:45:26+00:00] INFO: Running start handlers
+[2018-05-31T12:45:26+00:00] INFO: Start handlers complete.
+[2018-05-31T12:45:26+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-31T12:45:26+00:00] INFO: Storing updated cookbooks/example/recipes/dotnetcore.rb in the cache.
+[2018-05-31T12:45:26+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-31T12:45:26+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-31T12:45:26+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T12:45:26+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T12:45:26+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T12:45:26+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-31T12:45:26+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-31T12:45:26+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-31T12:45:26+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-31T12:45:26+00:00] ERROR: Running exception handlers
+[2018-05-31T12:45:26+00:00] ERROR: Exception handlers complete
+[2018-05-31T12:45:26+00:00] FATAL: Stacktrace dumped to /home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-31T12:45:26+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-31T12:45:26+00:00] ERROR: apt_package[oracle-java8-installer] (example::java line 15) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '100'
+---- Begin output of ["apt-cache", "policy", "oracle-java8-installer"] ----
+STDOUT: 
+STDERR: E: Malformed entry 1 in list file /etc/apt/sources.list.d/dotnetdev.list (Component)
+E: The list of sources could not be read.
+---- End output of ["apt-cache", "policy", "oracle-java8-installer"] ----
+Ran ["apt-cache", "policy", "oracle-java8-installer"] returned 100
+[2018-05-31T12:45:26+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-31T12:53:34+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/sneha/chef/jenkins-repo
+  One version per cookbook
+
+[2018-05-31T12:53:34+00:00] INFO: Forking chef instance to converge...
+[2018-05-31T12:53:34+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-31T12:53:34+00:00] INFO: Platform: x86_64-linux
+[2018-05-31T12:53:34+00:00] INFO: Chef-client pid: 17684
+[2018-05-31T12:53:34+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-31T12:53:35+00:00] INFO: Setting the run_list to ["recipe[example::java]", "recipe[example::jenkins]"] from CLI options
+[2018-05-31T12:53:35+00:00] INFO: Run List is [recipe[example::java], recipe[example::jenkins]]
+[2018-05-31T12:53:35+00:00] INFO: Run List expands to [example::java, example::jenkins]
+[2018-05-31T12:53:35+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-31T12:53:35+00:00] INFO: Running start handlers
+[2018-05-31T12:53:35+00:00] INFO: Start handlers complete.
+[2018-05-31T12:53:35+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-31T12:53:35+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-31T12:53:36+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-31T12:53:36+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T12:53:36+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T12:53:36+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T12:53:36+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-31T12:53:36+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-31T12:53:36+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-31T12:53:36+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-05-31T12:53:36+00:00] ERROR: Running exception handlers
+[2018-05-31T12:53:36+00:00] ERROR: Exception handlers complete
+[2018-05-31T12:53:36+00:00] FATAL: Stacktrace dumped to /home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/chef-stacktrace.out
+[2018-05-31T12:53:36+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-05-31T12:53:36+00:00] ERROR: apt_package[oracle-java8-installer] (example::java line 15) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '100'
+---- Begin output of ["apt-cache", "policy", "oracle-java8-installer"] ----
+STDOUT: 
+STDERR: E: Malformed entry 1 in list file /etc/apt/sources.list.d/dotnetdev.list (Component)
+E: The list of sources could not be read.
+---- End output of ["apt-cache", "policy", "oracle-java8-installer"] ----
+Ran ["apt-cache", "policy", "oracle-java8-installer"] returned 100
+[2018-05-31T12:53:36+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-05-31T12:58:46+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/sneha/chef/jenkins-repo
+  One version per cookbook
+
+[2018-05-31T12:58:46+00:00] INFO: Forking chef instance to converge...
+[2018-05-31T12:58:46+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-31T12:58:46+00:00] INFO: Platform: x86_64-linux
+[2018-05-31T12:58:46+00:00] INFO: Chef-client pid: 18750
+[2018-05-31T12:58:46+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-31T12:58:47+00:00] INFO: Setting the run_list to ["recipe[example::java]", "recipe[example::jenkins]"] from CLI options
+[2018-05-31T12:58:47+00:00] INFO: Run List is [recipe[example::java], recipe[example::jenkins]]
+[2018-05-31T12:58:47+00:00] INFO: Run List expands to [example::java, example::jenkins]
+[2018-05-31T12:58:47+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-31T12:58:47+00:00] INFO: Running start handlers
+[2018-05-31T12:58:47+00:00] INFO: Start handlers complete.
+[2018-05-31T12:58:47+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-31T12:58:47+00:00] INFO: Storing updated cookbooks/example/recipes/java.rb in the cache.
+[2018-05-31T12:58:47+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-31T12:58:47+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-31T12:58:48+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T12:58:48+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T12:58:48+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T12:58:48+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-31T12:58:48+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-31T12:58:48+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-31T12:58:48+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-31T12:58:48+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-31T12:58:48+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-31T12:58:48+00:00] INFO: Processing remote_file[/home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-31T12:58:48+00:00] INFO: Processing execute[apt-key add /home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-31T12:58:48+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T12:58:48+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T12:58:48+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T12:58:49+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-31T12:58:49+00:00] INFO: Processing bash[start-jenkins] action run (example::jenkins line 13)
+[2018-05-31T12:58:49+00:00] INFO: bash[start-jenkins] ran successfully
+[2018-05-31T12:58:49+00:00] INFO: Chef Run complete in 1.637164887 seconds
+[2018-05-31T12:58:49+00:00] INFO: Running report handlers
+[2018-05-31T12:58:49+00:00] INFO: Report handlers complete
+[2018-05-31T12:58:49+00:00] WARN: *****************************************
+[2018-05-31T12:58:49+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-31T12:58:49+00:00] WARN: *****************************************
+[2018-05-31T12:58:49+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-31T13:02:38+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/sneha/chef/jenkins-repo
+  One version per cookbook
+
+[2018-05-31T13:02:38+00:00] INFO: Forking chef instance to converge...
+[2018-05-31T13:02:39+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-31T13:02:39+00:00] INFO: Platform: x86_64-linux
+[2018-05-31T13:02:39+00:00] INFO: Chef-client pid: 19775
+[2018-05-31T13:02:39+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-31T13:02:40+00:00] INFO: Setting the run_list to ["recipe[example::java]", "recipe[example::dotnetcore]", "recipe[example::jenkins]"] from CLI options
+[2018-05-31T13:02:40+00:00] INFO: Run List is [recipe[example::java], recipe[example::dotnetcore], recipe[example::jenkins]]
+[2018-05-31T13:02:40+00:00] INFO: Run List expands to [example::java, example::dotnetcore, example::jenkins]
+[2018-05-31T13:02:40+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-31T13:02:40+00:00] INFO: Running start handlers
+[2018-05-31T13:02:40+00:00] INFO: Start handlers complete.
+[2018-05-31T13:02:40+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-31T13:02:40+00:00] INFO: Storing updated cookbooks/example/recipes/dotnetcore.rb in the cache.
+[2018-05-31T13:02:40+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-31T13:02:40+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-31T13:02:40+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T13:02:40+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T13:02:40+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T13:02:40+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-31T13:02:40+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-31T13:02:40+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-31T13:02:40+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-31T13:02:40+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::dotnetcore line 1)
+[2018-05-31T13:02:40+00:00] INFO: Processing bash[install-dotnetcore] action run (example::dotnetcore line 4)
+[2018-05-31T13:03:46+00:00] INFO: bash[install-dotnetcore] ran successfully
+[2018-05-31T13:03:46+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-31T13:03:46+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-31T13:03:46+00:00] INFO: Processing remote_file[/home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-31T13:03:46+00:00] INFO: Processing execute[apt-key add /home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-31T13:03:46+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T13:03:46+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T13:03:46+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T13:03:46+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-31T13:03:47+00:00] INFO: Processing bash[start-jenkins] action run (example::jenkins line 13)
+[2018-05-31T13:03:47+00:00] INFO: bash[start-jenkins] ran successfully
+[2018-05-31T13:03:47+00:00] INFO: Chef Run complete in 67.310293207 seconds
+[2018-05-31T13:03:47+00:00] INFO: Running report handlers
+[2018-05-31T13:03:47+00:00] INFO: Report handlers complete
+[2018-05-31T13:03:47+00:00] WARN: *****************************************
+[2018-05-31T13:03:47+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-31T13:03:47+00:00] WARN: *****************************************
+[2018-05-31T13:03:47+00:00] FATAL: Cannot load configuration from node.json
+[2018-05-31T13:12:37+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ubuntu/sneha/chef/jenkins-repo
+  One version per cookbook
+
+[2018-05-31T13:12:37+00:00] INFO: Forking chef instance to converge...
+[2018-05-31T13:12:37+00:00] INFO: *** Chef 13.8.5 ***
+[2018-05-31T13:12:37+00:00] INFO: Platform: x86_64-linux
+[2018-05-31T13:12:37+00:00] INFO: Chef-client pid: 21549
+[2018-05-31T13:12:37+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-05-31T13:12:39+00:00] INFO: Setting the run_list to ["recipe[example::default]"] from CLI options
+[2018-05-31T13:12:39+00:00] INFO: Run List is [recipe[example::default]]
+[2018-05-31T13:12:39+00:00] INFO: Run List expands to [example::default]
+[2018-05-31T13:12:39+00:00] INFO: Starting Chef Run for ip-172-31-83-203.ec2.internal
+[2018-05-31T13:12:39+00:00] INFO: Running start handlers
+[2018-05-31T13:12:39+00:00] INFO: Start handlers complete.
+[2018-05-31T13:12:39+00:00] INFO: Loading cookbooks [example@1.0.0]
+[2018-05-31T13:12:39+00:00] INFO: Storing updated cookbooks/example/recipes/default.rb in the cache.
+[2018-05-31T13:12:39+00:00] INFO: Processing log[Welcome to Chef, Sam Doe!] action write (example::default line 5)
+[2018-05-31T13:12:39+00:00] INFO: Welcome to Chef, Sam Doe!
+[2018-05-31T13:12:39+00:00] INFO: Processing apt_repository[webupd8team] action add (example::java line 1)
+[2018-05-31T13:12:39+00:00] INFO: Processing execute[install-key EEA14886] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 194)
+[2018-05-31T13:12:39+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T13:12:39+00:00] INFO: Processing apt_update[webupd8team] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T13:12:39+00:00] INFO: Processing file[/etc/apt/sources.list.d/webupd8team.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T13:12:39+00:00] INFO: Processing execute[accept-license] action run (example::java line 11)
+[2018-05-31T13:12:40+00:00] INFO: execute[accept-license] ran successfully
+[2018-05-31T13:12:40+00:00] INFO: Processing apt_package[oracle-java8-installer] action install (example::java line 15)
+[2018-05-31T13:12:40+00:00] INFO: Processing apt_package[oracle-java8-set-default] action install (example::java line 19)
+[2018-05-31T13:12:40+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::dotnetcore line 1)
+[2018-05-31T13:12:40+00:00] INFO: Processing bash[install-dotnetcore] action run (example::dotnetcore line 4)
+[2018-05-31T13:12:44+00:00] INFO: bash[install-dotnetcore] ran successfully
+[2018-05-31T13:12:44+00:00] INFO: Processing apt_package[apt-transport-https] action install (example::jenkins line 1)
+[2018-05-31T13:12:44+00:00] INFO: Processing apt_repository[jenkins] action add (example::jenkins line 3)
+[2018-05-31T13:12:44+00:00] INFO: Processing remote_file[/home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 163)
+[2018-05-31T13:12:44+00:00] INFO: Processing execute[apt-key add /home/ubuntu/sneha/chef/jenkins-repo/.chef/cache/https___pkg_jenkins_io_debian-stable_jenkins_io_key] action run (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 172)
+[2018-05-31T13:12:44+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 49)
+[2018-05-31T13:12:44+00:00] INFO: Processing apt_update[jenkins] action nothing (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 54)
+[2018-05-31T13:12:44+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib/chef/provider/apt_repository.rb line 74)
+[2018-05-31T13:12:44+00:00] INFO: Processing apt_package[jenkins] action install (example::jenkins line 9)
+[2018-05-31T13:12:44+00:00] INFO: Processing bash[start-jenkins] action run (example::jenkins line 13)
+[2018-05-31T13:12:44+00:00] INFO: bash[start-jenkins] ran successfully
+[2018-05-31T13:12:44+00:00] INFO: Chef Run complete in 5.489050447 seconds
+[2018-05-31T13:12:44+00:00] INFO: Running report handlers
+[2018-05-31T13:12:44+00:00] INFO: Report handlers complete
+[2018-05-31T13:12:44+00:00] WARN: *****************************************
+[2018-05-31T13:12:44+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-05-31T13:12:44+00:00] WARN: *****************************************
+[2018-05-31T13:12:44+00:00] FATAL: Cannot load configuration from node.json

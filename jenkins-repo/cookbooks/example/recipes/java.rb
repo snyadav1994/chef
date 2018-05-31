@@ -7,7 +7,7 @@ apt_repository "webupd8team" do
   deb_src true
 end
 
-# could be improved to run only on update
+
 execute "accept-license" do
   command "echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections"
 end
