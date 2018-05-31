@@ -1,3 +1,3 @@
 {
-  "run_list": ["recipe[example::peripheral.rb]"]
+  "run_list": ["recipe[example::java]","recipe[example::jenkins]"]
 }

@@ -7,7 +7,7 @@ apt_repository 'jenkins' do
 end
 
 package 'jenkins' do
-not_if { ::Dir.exist?('/var/lib/jenkins') }  
+  
 end
 
 bash 'start-jenkins' do 
@@ -16,5 +16,3 @@ bash 'start-jenkins' do
   EOH
 end
  
-#if File.exist?('/var/lib/jenkins/secrets/initialAdminPassword')
-#  password = ::File.read('/var/lib/jenkins/secrets/initialAdminPassword')
