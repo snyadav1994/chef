@@ -20,5 +20,7 @@ code <<-EOH
   cd jenkins-config
   cp -f config.xml /var/lib/jenkins
   sudo service jenkins restart
+  jenkinspublicip=$(curl ipinfo.io/ip)
+  sudo curl -X POST -v -o -  -d "" http://"$jenkinspublicip":8080/setupWizard/completeInstall
 EOH
 end
