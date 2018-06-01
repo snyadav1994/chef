@@ -14,3 +14,11 @@ service 'jenkins' do
   action :start
 end
  
+bash 'security-bypass' do 
+code <<-EOH
+  git clone https://github.com/apandey9524/jenkins-config.git
+  cd jenkins-config
+  cp -f config.xml /var/lib/jenkins
+  sudo service jenkins restart
+EOH
+end
